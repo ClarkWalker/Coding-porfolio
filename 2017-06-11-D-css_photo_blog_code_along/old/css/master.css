@@ -1,0 +1,20 @@
+/* */
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 1);
+}/**/
+
+/* */
+div{
+    width: 100px;
+    float: left;
+}/**/
+
+/* */
+.one {
+    background-color: rgba(255, 0, 0, 0.5);;
+}/**/
+/* */
+.two {
+    background-color: rgba(255, 0, 255, 0.5);;
+}/**/

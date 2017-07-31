@@ -1,0 +1,29 @@
+h1 {
+    color: #00FF00;
+    /* You can do all this or
+    border-width: 5px;
+    border-style: solid;
+    border-color: #FF0000;
+        OR You can do---\/ */
+    border: 1px solid #FF0000;
+}
+
+h4 {
+    color: #33FF33;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+li {
+    color: #FF0000;
+}
+
+
+body {
+/*/
+    background-color: #242628;
+/*/
+    background: url(http://www.graphicsbeam.com/wp-content/uploads/2012/03/Hellboy-Lives-Illustration-Artwork.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+}

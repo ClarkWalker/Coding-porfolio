@@ -1,0 +1,112 @@
+/* */
+/**/
+/* */
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 1);
+}/**/
+
+
+/* */
+h1{
+    text-align: center;
+    width: 50%;
+    margin: 5px auto;
+}/**/
+
+/* */
+table{
+    margin: 5px auto;
+}/**/
+
+/* */
+td{
+    /* * /
+    border: 2px solid white;/**/
+    padding: 50px;
+}
+/**/
+
+td[class="1"]{
+    /* * /
+    border-top: 2px solid white;/**/
+    /* */
+    border-right:  2px solid white;/**/
+    /* */
+    border-bottom:  2px solid white;/**/
+    /* * /
+    border-left:  2px solid white;/**/
+}
+td[class="2"]{
+    /* * /
+    border-top: 2px solid white;/**/
+    /* */
+    border-right:  2px solid white;/**/
+    /* */
+    border-bottom:  2px solid white;/**/
+    /* * /
+    border-left:  2px solid white;/**/
+}td[class="3"]{
+    /* * /
+    border-top: 2px solid white;/**/
+    /* * /
+    border-right:  2px solid white;/**/
+    /* */
+    border-bottom:  2px solid white;/**/
+    /* * /
+    border-left:  2px solid white;/**/
+}td[class="4"]{
+    /* * /
+    border-top: 2px solid white;/**/
+    /* */
+    border-right:  2px solid white;/**/
+    /* */
+    border-bottom:  2px solid white;/**/
+    /* * /
+    border-left:  2px solid white;/**/
+}td[class="5"]{
+    /* * /
+    border-top: 2px solid white;/**/
+    /* */
+    border-right:  2px solid white;/**/
+    /* */
+    border-bottom:  2px solid white;/**/
+    /* * /
+    border-left:  2px solid white;/**/
+}td[class="6"]{
+    /* * /
+    border-top: 2px solid white;/**/
+    /* * /
+    border-right:  2px solid white;/**/
+    /* */
+    border-bottom:  2px solid white;/**/
+    /* * /
+    border-left:  2px solid white;/**/
+}td[class="7"]{
+    /* * /
+    border-top: 2px solid white;/**/
+    /* */
+    border-right:  2px solid white;/**/
+    /* * /
+    border-bottom:  2px solid white;/**/
+    /* * /
+    border-left:  2px solid white;/**/
+}td[class="8"]{
+    /* * /
+    border-top: 2px solid white;/**/
+    /* */
+    border-right:  2px solid white;/**/
+    /* * /
+    border-bottom:  2px solid white;/**/
+    /* * /
+    border-left:  2px solid white;/**/
+}td[class="9"]{
+    /* * /
+    border-top: 2px solid white;/**/
+    /* * /
+    border-right:  2px solid white;/**/
+    /* * /
+    border-bottom:  2px solid white;/**/
+    /* * /
+    border-left:  2px solid white;/**/
+}

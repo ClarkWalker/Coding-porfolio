@@ -1,0 +1,57 @@
+/* css entries rule
+
+selector {
+    property: value;
+    property: value;
+    ...
+}
+*/
+/* * /
+ ul {
+     color: #FF00FF;
+ }
+/**/
+
+/* */
+body {
+    color: #FF0000;
+}
+
+/**/
+
+/* */
+p {
+    color: #00FF00;
+}
+
+/**/
+
+/* */
+
+ul {
+    color: #0000FF;
+}
+/**/
+
+/* * /
+
+li {
+    color: #FFAA55;
+}
+.highlight {
+    color: #FFFF55;
+}
+/*/
+.highlight {
+    color: #FFFF55;
+}
+li {
+    color: #FFAA55;
+}
+/**/
+
+/*this is an example of specificity*/
+
+/*Type selectors have a specificity score of 1*/
+/*class selectors have a specificity score of 10*/
+/*id selectors have a specificity score of 100*/

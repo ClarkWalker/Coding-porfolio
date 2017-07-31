@@ -1,0 +1,49 @@
+/* css entries rule
+
+selector {
+    property: value;
+    property: value;
+    ...
+}
+
+*/
+
+/* /
+#h1-cssTest {
+    color: #F00;
+}
+/**/
+
+/* /
+body {
+    background-color: #242628;
+}
+/**/
+
+
+/*Element selector*/
+/* * /
+li {
+    border: 2px solid #F00;
+}
+/**/
+/*id selector*/
+#special{
+    background-color: #0f0;
+}
+
+/*class selector*/
+.highlight {
+    background-color: #ff0;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+/*Everything selector*/
+/* */
+*{
+    border: 1px solid #DDDDDD;
+}
+/**/

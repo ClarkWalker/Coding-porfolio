@@ -1,0 +1,123 @@
+/* css entries rule
+
+selector {
+    property: value;
+    property: value;
+    ...
+}
+*/
+
+/* * /
+#h1-cssTest {
+    color: #F00;
+}
+/**/
+
+/* * /
+body {
+    background-color: #242628;
+}
+/**/
+
+/******************************************************************************/
+/*Element selector*/
+/* * /
+li {
+    border: 2px solid #F00;
+}
+/**/
+
+/******************************************************************************/
+/*id selector*/
+#special{
+    background-color: #0f0;
+}
+
+/*class selector*/
+.highlight {
+    background-color: #ff0;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+/******************************************************************************/
+/*Star (Everything) selector*/
+/* */
+*{
+    border: 1px solid #DDDDDD;
+}
+/**/
+
+/******************************************************************************/
+/*Descendant Selector*/
+/*We'll be selecting all <a> tags that are decendants of an <li>*/
+/*Every <a> inside of an <li>*/
+li a {
+    color: #FF0000;
+}
+
+/*Everything with a class of -class="hello" inside of an <li>*/
+/*
+li .hello {
+    color: #FF0000;
+}
+*/
+
+/* this is redundant
+ul li a {
+    color: #FF0000;
+}*/
+/******************************************************************************/
+/*Adjacent (Sibling) Selector*/
+/*All <ul> that are adjacent to an <h4>*/
+h4 + ul {
+    border: 4px solid #FF0000;
+}
+
+/******************************************************************************/
+/*Attribute Selector*/
+
+/*selects all links that goto google*/
+/*more specifically selects all a tags with an href attribute and that exact value which happens to go to google*/
+/* */
+a[href="https://google.com"]{
+    background: #FF9999;
+}
+/**/
+
+/*selects all links that START with "https://f" */
+/* */
+a[href^="https://f"]{
+    background: #FFFF99;
+}
+/**/
+
+/*selects all links that END with "t.com" */
+/* */
+a[href$="t.com"]{
+    background: #99FF99;
+}
+/**/
+
+/*selects all links that contain with "twi" */
+/* */
+a[href*="twi"]{
+    background: #99FFFF;
+}
+/**/
+
+/******************************************************************************/
+/*nth of type Selector*/
+/* */
+ul:nth-of-type(2){
+    background: #9999FF;
+}
+/**/
+
+/* */
+ul:nth-of-type(2) li:nth-of-type(2){
+    background: #FF99FF;
+}
+/**/
